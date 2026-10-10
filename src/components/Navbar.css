@@ -62,6 +62,14 @@ nav {
   cursor: pointer;
 }
 
+@media (prefers-color-scheme: dark) {
+  .nav-brand,
+  .nav-links a:hover,
+  .nav-links a.active {
+    color: var(--color-accent);
+  }
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;

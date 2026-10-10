@@ -8,6 +8,7 @@ import Authors from './pages/Authors'
 import Board from './pages/Board'
 import Podcast from './pages/Podcast'
 import Contact from './pages/Contact'
+import Events from './pages/Events'
 import './App.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/authors" element={<Authors />} />
             <Route path="/board" element={<Board />} />
             <Route path="/podcast" element={<Podcast />} />
+            <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

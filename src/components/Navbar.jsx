@@ -60,6 +60,15 @@ function Navbar() {
               </Link>
             </li>
             <li>
+              <Link
+                to="/events"
+                className={isActive('/events') ? 'active' : ''}
+                onClick={closeMobileMenu}
+              >
+                Events
+              </Link>
+            </li>
+            <li>
               <Link 
                 to="/authors" 
                 className={isActive('/authors') ? 'active' : ''}
